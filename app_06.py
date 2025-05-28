@@ -27,7 +27,7 @@ def parse_page(html):
         'timestamp': timestamp
     }
 
-def create_connection(db_name='iphone_prices.db'):
+def create_connection(db_name='ps5_prices.db'):
     """Cria uma conexão com o banco de dados SQLite."""
     conn = sqlite3.connect(db_name)
     return conn
