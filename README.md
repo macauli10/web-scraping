@@ -34,12 +34,25 @@ Este projeto realiza **Web Scraping** de preços de consoles **Playstation 5**, 
 
 📁 WebScrapingEtl/
 │
-├── app_01.py ... app_06.py # Módulos ETL individuais
-├── ps5_prices.db # Banco de dados SQLite
-├── requirements.txt # Dependências do projeto
-├── Dockerfile # Instruções para build da imagem Docker
-├── .gitignore # Arquivos ignorados pelo Git
-└── README.md # Este arquivo
+├── src/                        
+│   ├── dev/                     
+│   │   ├── app_01.py
+│   │   ├── app_02.py
+│   │   ├── app_03.py
+│   │   ├── app_04.py
+│   │   └── app_05.py
+│   │
+│   ├── main/                   
+│   │   ├── app.06.py             
+│   
+│
+├── data/                       
+│   └── ps5_prices.db
+│
+├── Dockerfile
+├── requirements.txt
+├── .gitignore
+└── README.md 
 
 yaml
 Copy
